@@ -1,0 +1,35 @@
+{
+  "name": "LGD-Icons",
+  "version": "1.0.1",
+  "authors": [
+    "Esteban Santiesteban <esteban@lgdcom.com>"
+  ],
+  "description": "A library of custom LGD icons, repo for bower package.",
+  "main": "lgd-icons.scss",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "scss",
+    "library",
+    "icons"
+  ],
+  "license": "MIT",
+  "homepage": "http://lgdcom.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.1",
+    "commit": "d3df203d30c0061f4709e748b79e064725900d73"
+  },
+  "_source": "git://github.com/lgdcommunications/library--lgd-icons.git",
+  "_target": "*",
+  "_originalSource": "lgd-icons"
+}
