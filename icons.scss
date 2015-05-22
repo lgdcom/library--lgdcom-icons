@@ -1,18 +1,18 @@
 $path: '../vendors/lgdcom-icons/fonts';
 
 @font-face {
-	font-family: 'LGD-Icons';
-	src:url('#{$path}/lgdcom-icons.eot?-bwraut');
-	src:url('#{$path}/lgdcom-icons.eot?#iefix-bwraut') format('embedded-opentype'),
-		url('#{$path}/lgdcom-icons.woff?-bwraut') format('woff'),
-		url('#{$path}/lgdcom-icons.ttf?-bwraut') format('truetype'),
-		url('#{$path}/lgdcom-icons.svg?-bwraut#icomoon') format('svg');
+	font-family: 'lgdcom-icons';
+	src:url('#{$path}/LGD-Icons.eot?-bwraut');
+	src:url('#{$path}/LGD-Icons.eot?#iefix-bwraut') format('embedded-opentype'),
+		url('#{$path}/LGD-Icons.woff?-bwraut') format('woff'),
+		url('#{$path}/LGD-Icons.ttf?-bwraut') format('truetype'),
+		url('#{$path}/LGD-Icons.svg?-bwraut#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 %font-defaults {
-	font-family: 'LGD-Icons';
+	font-family: 'lgdcom-icons';
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
