@@ -5,7 +5,7 @@
     "Esteban Santiesteban <esteban@lgdcom.com>"
   ],
   "description": "A library of custom LGD icons, repo for bower package.",
-  "main": "lgd-icons.scss",
+  "main": "icons.scss",
   "moduleType": [
     "globals"
   ],
