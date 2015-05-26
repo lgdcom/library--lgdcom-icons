@@ -11,7 +11,7 @@ $path: '../vendors/lgdcom-icons/fonts';
 	font-style: normal;
 }
 
-%font-defaults {
+%lgcom-icons-defaults {
 	font-family: 'lgdcom-icons';
 	speak: none;
 	font-style: normal;
@@ -19,22 +19,21 @@ $path: '../vendors/lgdcom-icons/fonts';
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-@mixin lgd-icon($icon) { 
+@mixin lgdcom-icon($icon) { 
   @if $icon == logo {
       content: "\e601";
-      @extend %font-defaults;
+      @extend %lgcom-icons-defaults;
   }
   @else if $icon == housing {
       content: "\e600";
-      @extend %font-defaults;
+      @extend %lgcom-icons-defaults;
   }
   @else {
       content: $icon;
-      @extend %font-defaults;
+      @extend %lgcom-icons-defaults;
   }
 }
